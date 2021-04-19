@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+  
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.upper-div{
+    background-image: url(bg/1.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    /* display: flex; */
+    /* float: left; */
+    
+}
+.nav-items{
+    width: 300px;
+    height: 500px;
+    background-color: brown;
+    margin-left: 15px;
+    text-align: center;
+}
+.nav-items img{
+    margin-top: 5px;
+    width: 50%;
+    border-radius: 710%;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+}
+.bio{
+    width: 950px;
+    margin-left: 80px;
+    text-align: center;
+}
+.bio-section-1{
+    margin-top: 50px;
+    display: flex;
+    
+}
+
+.bio-img img{
+    width: 60%;
+    border-radius: 5px;
+    
+}
+.bio-section-info button{
+    border:none;
+    padding: 10px;
+    color:brown;
+    border-radius: 5px;
+    /* width: 40%; */
+}
+/* bio-section 2 */
+.bio-section-info-2 button{
+    border:none;
+    padding: 10px;
+    color:brown;
+    border-radius: 5px;
+
+}
+/* .bio-section-info-2{
+   
+} */
+.bio-img-2 img{
+    width: 23%;
+    border-radius: 5px;
+}
+
+/* mid section */
+
+.mid-section{
+    background-image: url(bg/1.jpg);
+    background-repeat: no-repeat;
+    /* display: flex; */
+}
+.header-mid-section{
+    text-align: center;
+    margin-left: 315px;
+
+}
+.box-section{
+    margin-top: 50px;
+    margin-left: 400px;
+    /* opacity: inherit; */
+    color: ivory;
+    /* display: flex; */
+}
+.box-1{
+    margin: 10px;
+    border: none;
+    height: 270px;
+    width: 415px;
+    border: 1px solid #efefef;
+    background: rgba(0, 0, 0.1, 0.50);
+   
+    
+    
+
+}
+.box-2{
+    margin: 10px;
+    border: none;
+    height: 270px;
+    width: 415px;
+    border: 1px solid #efefef;
+    background: rgba(0, 0, 0.1, 0.50);
+    /* display: flex; */
+    
+}
+.box-3{
+    margin: 10px;
+    border: none;
+    height: 270px;
+    width: 415px;
+    border: 1px solid #efefef;
+    background: rgba(0, 0, 0.1, 0.50);
+    
+}
+.box-4{
+    margin: 10px;
+    border: none;
+    height: 270px;
+    width: 415px;
+    border: 1px solid #efefef;
+    background: rgba(0, 0, 0.1, 0.50);
+    
+}
+.group-box{
+    display: flex;
+}
+.picture-section{
+    text-align: center;
+    margin-left: 560px;
+}
+
+/* picture section */
+
+.card-one{
+    margin: 50px;
+    display: flex;
+    float: left;
+}
+.card-two{
+    margin: 50px;
+    display: flex;
+    float: left;
+}
+
+/* contract sec */
+.contract{
+    text-align: center;
+    /* margin-left: 315px; */
+    background-color: rgb(224, 220, 220);
+}
+/* .contract-sec{
+    margin-left: 700px;
+   
+} */
+#contrac-sec{
+    margin-left: 650px;
+}
+
+form input{
+   
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 4px;
+   height: 40px;
+   width: 500px;
+   background: rgba(175, 168, 168, 0.589);
+}
+#des{
+    height: 100px;
+}
